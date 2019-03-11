@@ -1,0 +1,473 @@
+body{
+	font-family: roboto!important;
+	font-weight: 400!important;
+	font-size: 16px!important;
+	line-height: 27px!important;
+	background: #ffffff!important;
+	box-sizing: border-box;
+}
+#wrapper{
+	width: 1170px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding-top: 30px;
+
+}
+#header{
+	border:1px solid #ffffff;
+	border-bottom-color: #d8d8d8;
+}
+#local-tree{
+	height: 30px;
+	background: #f3f3f3;
+	font-size: 11px;
+	color: #000000;
+	font-weight: 500;
+}
+.wp-tree>span{
+	font-size: 11px;
+	color: #565656;
+	padding-left: 10px;
+}
+.wp-tree{
+	width: 1170px;
+	margin: 0px auto;
+}
+#search{
+	margin-left: 35px;
+	margin-top: 12px;
+	float: left;
+	width: 180px;
+	height: 35px;
+	border: 1px solid #e1e1e1;
+	font-size: 13px;
+	padding-left: 15px;
+	font-style: italic;
+	outline: none;
+}
+#wp-inner{
+	width: 1170px;
+	margin: 0px auto;
+}
+#logo{
+	display: block;
+	margin-top:16px;
+}
+#main-menu li{
+	float: left;
+	position: relative;
+}
+#main-menu li>a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 17px 20px 16px 20px;
+	display: block;
+}
+#main-menu li:hover>a{
+	background: #01a050;
+	transition: all 0.25s;
+}
+#wp-content{
+	width: 829px;
+	margin-bottom: 20px;
+
+}
+#content{
+	width: 829px;
+	margin-bottom: 20px;	
+}
+
+#content-left{
+	width: 488px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	
+}
+h1.news-title>a{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 33px;
+	padding-top: 31px;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+}
+#content-left .content-text{
+	text-align: justify;
+	font-size: 15px;
+	line-height: 27px;
+	font-weight: 400;
+	padding:22px 0px;
+}
+.box-1-text{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	padding:0px 0px 0px 20px;
+	width: 263px;
+	box-sizing: border-box;
+}
+.picture-news>img{
+	padding-top: 7px;
+}
+#news-bar{
+	border-bottom: 2px solid #01a050;
+	margin-bottom: 25px;
+	height: 41px;
+}
+#news-bar>a{
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #e8f3ec;
+	background: #01a050;
+	display: block;
+	padding: 11px 25px;
+	float: left;
+}
+h4.news-title>a{
+	font-size: 16px;
+	line-height: 22px;
+	text-decoration: none;
+	color: #222222;
+	display: block;
+	padding-bottom: 20px;
+}
+#content-right,#content-right-clone{
+	width:341px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+#content-right>li{
+	padding-bottom: 16px;
+}
+#content-right li>a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+	float: right;
+	width: 206px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	line-height: 20px;
+}
+#content-right-clone li>a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+	float: right;
+	width: 229px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 20px;
+}
+#sidebar{
+	width: 341px;
+	min-height:400px;
+	padding-left: 34px;
+	float: right;
+	box-sizing: border-box;
+}
+#most-view{
+	margin-top: 50px;
+}
+#most-view-title{
+	text-transform: uppercase;
+	font-size: 21px;
+	line-height: auto;
+	color: #000000;
+	height: 41px;
+	
+	border-bottom: 2px solid #01a050;
+}
+#most-view-list{
+	margin-bottom: 50px;
+}
+#most-view-list>li{
+	padding-top: 20px;
+}
+#most-view-list>li>a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+	float: right;
+	width: 180px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 20px;
+}
+#footer{
+	height: 345px;
+	background: #01a050;
+}
+#wp-footer{
+	width: 1170px;
+	margin: 0px auto;
+	padding:45px 0px 0px 0px;
+	box-sizing: border-box;
+}
+#ft-box-1{
+	width: 293px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	float: left;
+}
+#ft-box-2{
+	width: 210px;
+	padding: 0px 35px 0px 30px;
+	box-sizing: border-box;
+	float: left;
+}
+#ft-box-3{
+	width: 375px;
+	padding: 0px 27px 0px 53px;
+	box-sizing: border-box;
+	float: left;
+}
+#ft-box-4{
+	width: 292px;
+	padding: 0px 15px 0px 0px;
+	box-sizing: border-box;
+	float: left;
+}
+#ft-box-1>h1,#ft-box-2>h1,#ft-box-3>h1,#ft-box-4>h1{
+	font-size: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 500;
+	line-height: 21px;
+	padding-bottom: 33px;
+}
+#ft-box-1>p{
+	font-size: 15px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	padding-bottom: 25px;
+}
+#ft-box-2 li>a,#ft-box-3 li>a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 21px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	display: block;
+
+}
+.fas,.fa,.far{
+	padding-right: 14px;
+	padding-top:3px;
+	float: left;
+	color: #ffffff;
+	font-size: 16px;
+	display: block;
+}
+#ft-copyright{
+	font-size: 14px;
+	color: #454545;
+}
+.container-1{
+	position: relative;
+}
+.container-1 .icon{
+  position: absolute;
+  top: 19px;
+  right: 1px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+
+#content-category{
+	width: 829px;
+	height: 510px;
+	border-bottom:1px solid #01a050;
+	box-sizing: border-box;
+}
+.child-content{
+	width: 390px;
+	padding-left: 31px;
+	box-sizing: border-box;
+}
+.child-content>h1.news-title>a{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 33px;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding-top: 0px;	
+	box-sizing: border-box;
+}
+#content-top{
+	padding-right: 34px;
+}
+#content-top .content-text{
+	text-align: justify;
+	font-size: 15px;
+	line-height: 27px;
+	font-weight: 400;
+	padding:20px 0px;
+}
+#content-bottom{
+	height: 233px;
+	padding: 23px 0px 0px 0px;
+	box-sizing: border-box;
+}
+#more-content{
+	width: 390px;
+	height: 98px;
+	padding-right: 24px;
+
+}
+#more-content>a{
+	padding-right: 20px;
+}
+#more-content>img{
+	float: left;
+	max-width: 100%;
+}
+#more-content h4.news-title>a{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #222222;
+	display: block;
+	box-sizing: border-box;
+}
+#relation-content{
+	margin-top: 37px;
+}
+#relation-content>a{
+	padding-right: 19px;
+	padding-top: 6px;
+}
+#relation-content>h1.news-title>a{
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	box-sizing: border-box;
+	padding-top: 0px;
+}
+#relation-content>span{
+	font-size: 12px;
+	color: #9d9d9d;
+}
+#relation-content>span>i{
+	font-size: 12px;
+	color: #9d9d9d;
+	padding-top: 9px;
+	padding-right: 5px
+}
+#relation-content .content-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #464646;
+}
+.pagination>li>a{
+	display: block;
+	padding: 0px 11px;
+	background: #ffffff;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-top: 55px;
+	margin-left: 9px;
+	text-decoration: none;
+	color: #0b0b0b;
+	border: 1px solid #dedede;
+}
+.pagination>li>a.active{
+	background: #01a050;
+	color: #f4f9f6;
+}
+.pagination>li>span{
+	display: block;
+	padding: 0px 11px;
+	background: #ffffff;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-top: 55px;
+	margin-left: 9px;
+	text-decoration: none;
+	color: #0b0b0b;
+}
+#detail-content{
+	margin-bottom: 60px;
+}
+#detail-content h1.news-title{
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 33px;
+	padding-bottom: 33px;
+	color: #000000;
+	text-transform: capitalize;	
+}
+#detail-content .content-text>p{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	padding-top: 35px;
+}
+#wp-slider{
+	height: 320px;
+	margin-top: 45px;
+	margin-bottom: 55px;
+}
+.slider-title{
+	text-transform: uppercase;
+	background: #ffffff;
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: 500;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #01a050;
+	margin-bottom: 27px;
+}
+.item h4.news-title>a{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+#sidebar-detailpage{
+	width: 341px;
+	min-height:400px;
+	padding-left: 34px;
+	padding-top: 66px;
+	float: right;
+	box-sizing: border-box;
+}
+#back-top{
+	position: fixed;
+    display: none;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+/*sticky menu*/
+.fixed{
+	position: fixed;
+    top: 0;
+    left: -1px;
+    width: 100%;
+    height: auto;
+    z-index: 99999;
+    background: #ffffff;
+}
